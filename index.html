@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sky-Pulse</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="side">
+        <a href="index.html">Home</a>
+        <a href="about.html">About</a>
+        <a href="faq.html">FAQs</a>
+        <a href="contact.html">Contact Me</a>
+    </div>
+    <main>
+        <div class="top">
+            <div id="weatherModal" class="modal">
+                <div class="modal-content">
+                    <form id="form-1">
+                        <label for="location">Location:</label><br>
+                        <input type="text" id="location" name="location" value="latitude,longitude"><br>
+                        <input type="submit" id="get" value="Get Weather">     
+                    </form>
+                </div>
+            </div>
+            <h1>Sky-Pulse</h1>
+            <div id="user-modal" class="modal">
+                <div class="modal-content">
+                    <form id="user">
+                        <label for="uname">Username:</label><br>
+                        <input type="text" id="uname" name="user" value="Username"><br>
+                        <label for="pword">Password:</label><br>
+                        <input type="password" id="pword" name="pword" value="Password"><br><br>
+                        <input type="submit" value="Login">
+                    </form>
+                </div>
+            </div>
+        </div>
+        <div class="card">
+            <h2>Current Weather Conditions</h2>
+            <p id="current-conditions">Loading...</p>
+        </div>
+        <div class="card">
+            <h2>Current Weather Alerts</h2>
+            <p id="weather-alerts">Loading...</p>
+        </div>
+        <div class="card">
+            <h2>Weather Over the Next 24 Hours</h2>
+            <canvas id="weatherChart"></canvas>
+        </div>
+    </main>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script src="script.js"></script>
+</body>
+
+</html>

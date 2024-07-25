@@ -1,0 +1,100 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    background-color: rgb(132, 126, 119);
+    display: flex;
+    flex-direction: row;
+    align-items: space-around;
+    height: 100vh;
+}
+main {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    background-color: rgb(104, 99, 93);
+    flex: 3;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgb(13, 131, 131);
+    border-radius: 10px;
+    padding-top: 40px;
+    padding-bottom: 80px;
+    margin: 50px;
+    min-height: 468px;
+    min-width: 300px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 3vh;
+    font-weight: 600;
+}
+
+p .weatherEmoji {
+    font-size: large;
+    font-weight: bold;
+}
+.top {
+    background-color: rgb(13, 131, 131);
+    display: flex;
+    justify-content: space-around;
+    align-items: baseline;
+    padding: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.side {
+    height: 100vh; 
+    max-width: 200px;  
+    z-index: 1; 
+    top: 0; 
+    left: 0;
+    flex: 1;
+    background-color: rgb(13, 131, 131);
+    overflow-x: hidden; 
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 400;
+}
+.dropdown {
+    display: flex;
+    flex-direction: column;
+    justify-content: stretch;
+    align-items: stretch;
+}
+form {
+    background-color: rgb(104, 99, 93);
+    border-radius: 5px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
